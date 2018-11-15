@@ -16,13 +16,15 @@ using namespace std;
 
 class surveillance {
 public:
+    void print_all(map<string, vector<string>>);
+
     void visited_kb_tavern(map<string, vector<string>>);
 
-    vector<string> not_visited_kb_home(map<string, vector<string>>);
+    void not_visited_kb_home(map<string, vector<string>>);
 
-    vector<string> visited_kb_school_not_tavern_home(map<string, vector<string>>);
+    void visited_kb_school_not_tavern_home(map<string, vector<string>>);
 
-    vector<string> visited_all_remove(map<string, vector<string>>);
+    void visited_all_remove(map<string, vector<string>> &);
 
 private:
     bool contains(vector<string> locations, string criteria);

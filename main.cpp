@@ -28,7 +28,11 @@ int main() {
     }
 
     surveillance s{};
+    s.print_all(people);
     s.visited_kb_tavern(people);
+    s.not_visited_kb_home(people);
+    s.visited_kb_school_not_tavern_home(people);
+    s.visited_all_remove(people);
 
     return 0;
 }

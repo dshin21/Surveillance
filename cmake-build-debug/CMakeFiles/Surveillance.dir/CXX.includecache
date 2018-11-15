@@ -6,17 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/main.cpp
-iostream
--
-fstream
--
-map
+/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/surveillance.cpp
+surveillance.hpp
+/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/surveillance.hpp
+
+/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/surveillance.hpp
+string
 -
 vector
 -
-string
+map
 -
-sstream
+iostream
+-
+algorithm
 -
 

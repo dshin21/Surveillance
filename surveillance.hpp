@@ -7,17 +7,25 @@
 
 #include <string>
 #include <vector>
+#include <map>
+#include <iostream>
+#include <algorithm>
+
 
 using namespace std;
 
 class surveillance {
-    vector<string> visited_kb_tavern();
+public:
+    void visited_kb_tavern(map<string, vector<string>>);
 
-    vector<string> not_visited_kb_home();
+    vector<string> not_visited_kb_home(map<string, vector<string>>);
 
-    vector<string> visited_kb_school_not_tavern_home();
+    vector<string> visited_kb_school_not_tavern_home(map<string, vector<string>>);
 
-    vector<string> visited_all_remove();
+    vector<string> visited_all_remove(map<string, vector<string>>);
+
+private:
+    bool contains(vector<string> locations, string criteria);
 };
 
 

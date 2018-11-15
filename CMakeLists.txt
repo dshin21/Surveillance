@@ -3,4 +3,4 @@ project(Surveillance)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Surveillance main.cpp)
+add_executable(Surveillance main.cpp surveillance.cpp surveillance.hpp)

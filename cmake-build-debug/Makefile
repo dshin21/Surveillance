@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Surveillance.dir/build.make CMakeFiles/Surveillance.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+surveillance.o: surveillance.cpp.o
+
+.PHONY : surveillance.o
+
+# target to build an object file
+surveillance.cpp.o:
+	$(MAKE) -f CMakeFiles/Surveillance.dir/build.make CMakeFiles/Surveillance.dir/surveillance.cpp.o
+.PHONY : surveillance.cpp.o
+
+surveillance.i: surveillance.cpp.i
+
+.PHONY : surveillance.i
+
+# target to preprocess a source file
+surveillance.cpp.i:
+	$(MAKE) -f CMakeFiles/Surveillance.dir/build.make CMakeFiles/Surveillance.dir/surveillance.cpp.i
+.PHONY : surveillance.cpp.i
+
+surveillance.s: surveillance.cpp.s
+
+.PHONY : surveillance.s
+
+# target to generate assembly for a file
+surveillance.cpp.s:
+	$(MAKE) -f CMakeFiles/Surveillance.dir/build.make CMakeFiles/Surveillance.dir/surveillance.cpp.s
+.PHONY : surveillance.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... surveillance.o"
+	@echo "... surveillance.i"
+	@echo "... surveillance.s"
 .PHONY : help
 
 

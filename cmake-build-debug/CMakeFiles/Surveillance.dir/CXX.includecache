@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/main.cpp
+iostream
+-
+fstream
+-
+map
+-
+vector
+-
+string
+-
+sstream
+-
+

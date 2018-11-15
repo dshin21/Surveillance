@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/main.cpp" "/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/cmake-build-debug/CMakeFiles/Surveillance.dir/main.cpp.o"
+  "/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/surveillance.cpp" "/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/cmake-build-debug/CMakeFiles/Surveillance.dir/surveillance.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

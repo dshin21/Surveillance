@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Surveillance.dir/main.cpp.o"
+  "CMakeFiles/Surveillance.dir/surveillance.cpp.o"
   "Surveillance.pdb"
   "Surveillance.exe"
   "libSurveillance.dll.a"

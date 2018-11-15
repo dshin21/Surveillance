@@ -83,6 +83,12 @@
 		<Unit filename="/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/main.cpp">
 			<Option target="Surveillance"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/surveillance.cpp">
+			<Option target="Surveillance"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/surveillance.hpp">
+			<Option target="Surveillance"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Daniel Shin/Downloads/Surveillance/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
